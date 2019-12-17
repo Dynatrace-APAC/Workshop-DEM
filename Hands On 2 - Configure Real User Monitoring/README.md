@@ -77,4 +77,4 @@ Once you’ve identified where usernames are located in your page source, you ca
 
 :arrow_forward: [Next Hands On: Configure Synthetic in Dynatrace](/Hands%20On%203%20-%20Configure%20Synthetic%20Test)
 
-:arrow_up_small: [Back to overview](..)
+:arrow_up_small: [Back to overview](../)
