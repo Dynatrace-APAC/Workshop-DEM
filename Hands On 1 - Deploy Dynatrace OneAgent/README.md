@@ -24,7 +24,8 @@ Click the Start installation button and select Linux.
 ![Deploy](/assets/103-Linux.jpg)
 
 
-Choose the installer type from the drop-down list (we'll use the default x86/64). Use the Linux shell script installer on any Linux system that's supported by Dynatrace, regardless of the packaging system your distribution depends on.
+Choose the installer type from the drop-down list (we'll use the default x86/64). 
+Use the Linux shell script installer on any Linux system that's supported by Dynatrace, regardless of the packaging system your distribution depends on.
 
 **Copy** the command provided in the "Use this command on the target host" text field. **Paste** the command into your terminal window and execute it.
 
@@ -90,8 +91,6 @@ Execute the command
 ```
 $ cd ~
 $ ./restart_easyTravel.sh
-...
-ubuntu@ip-172-31-7-147:~$ ./restart_easyTravel.sh
 Stopping loadgen  ... done
 Stopping www      ... done
 Stopping frontend ... done
@@ -109,11 +108,11 @@ Creating backend ... done
 Creating frontend ... done
 Creating www      ... done
 Creating loadgen  ... done
-ubuntu@ip-172-31-7-147:~$
+$
 
 ```
 
-Easy Travel will take about 5 minutes to complete starting up. If you would like to check the status, you can enter this command
+Easy Travel will take about 5 minutes to complete starting up. If you would like to check the status, you can enter this command:
 
 ```bash
 $ sudo docker ps
@@ -126,18 +125,15 @@ f88098f89e90        dynatrace/easytravel-mongodb    "/bin/sh -c ${SCRIPT…"   1
 
 ```
 
-If you see the above 5 containers, it would mean that Easy Travel containers have started. If you do not the 5 conatiners, it means that Easy Travel is still starting and you might want to wait a few minutes more. 
+If you see the above 5 containers, it would mean that Easy Travel containers have started. If you do not see the 5 conatiners, it means that Easy Travel is still starting and you might want to wait a few minutes more. 
 
-To access the Easy Travel portal, copy the URL shown to you:
+To access the Easy Travel portal, use the Public DNS of your instance:
 
-![Deploy](/assets/107-EasyTravelURL.jpg)
-
-If you need the URL again, execute the command
+Get the Public DNS for your instance from the AWS Console or execute this command:
 
 ```bash
-$ cd ~
-$ ./showurl.sh
-Easytravel URL: www-easytravel.<your public ip>.nip.io
+$ curl http://169.254.169.254/latest/meta-data/public-hostname
+ec2-xxx-xxx-xxx-xxx.ap-southeast-2.compute.amazonaws.com
 ```
 
 ### 5. Explore the Smartscape
