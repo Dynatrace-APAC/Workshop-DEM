@@ -1,4 +1,4 @@
-## Exercise 5
+## Hands On 5 : Introduction to USQL
 This is an **optional** exercise.
 
 Dynatrace captures detailed user session data each time a user interacts with your monitored application. This data includes all user actions and high level performance data. Using either the Dynatrace API or Dynatrace User Sessions Query Language (USQL), you can easily run powerful queries, segmentations, and aggregations on this captured data. 

@@ -1,4 +1,4 @@
-## Exercise 1
+## Hands On 1 : Deploy Dynatrace OneAgent
 In this exercise, we will deploy the OneAgent to a Linux instance and let the OneAgent discover what is running in that instance.
 
 ### 1. Download the OneAgent

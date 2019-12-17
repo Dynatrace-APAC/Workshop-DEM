@@ -1,4 +1,4 @@
-## Exercise 4
+## Hands On 4 : Configure Session Replay
 This exercise covers configuring Session Replay in Dynatrace.
 
 Read about Session Replay here: [How to use Dynatrace > Real User Monitoring > Basic RUM concepts > Session Replay](https://www.dynatrace.com/support/help/how-to-use-dynatrace/real-user-monitoring/basic-concepts/session-replay/)
