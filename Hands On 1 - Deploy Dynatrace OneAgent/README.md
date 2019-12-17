@@ -59,7 +59,7 @@ $
 
 **Paste** the command into your terminal window and execute it. You’ll need to make the script executable before you can run it.
 
-**Note that you’ll need root access.**  You can use sudo to run the installation script. To do this, type one of the following commands into the directory where you downloaded the installation script.
+**Note that you’ll need root access.**  You can use sudo to run the installation script. To do this, type the following command into the directory where you downloaded the installation script.
 
 Example:
 
@@ -86,7 +86,7 @@ Reference: https://www.dynatrace.com/support/help/technology-support/operating-s
 
 ### 4. Start Easy Travel application
 
-Execute the command
+To start Easy Travel execute the following command:
 
 ```
 $ cd ~
