@@ -127,7 +127,7 @@ f88098f89e90        dynatrace/easytravel-mongodb    "/bin/sh -c ${SCRIPT…"   1
 
 If you see the above 5 containers, it would mean that Easy Travel containers have started. If you do not see the 5 conatiners, it means that Easy Travel is still starting and you might want to wait a few minutes more. 
 
-To access the Easy Travel portal, use the Public DNS of your instance:
+To access the Easy Travel portal, use the Public DNS of your instance. Copy / paste the Public DNS into your browser.
 
 Get the Public DNS for your instance from the AWS Console or execute this command:
 
