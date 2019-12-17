@@ -3,7 +3,7 @@ In this exercise, we will deploy the OneAgent to a Linux instance and let the On
 
 ### 1. Download the OneAgent
 
-Use PuTTy (Windows) or Terminal (Mac), ssh into the instance (IP address, userid and password will be provided to you)
+Use PuTTy (Windows) or Terminal (Mac), ssh into the instance (IP address using the your PEM Key)
 
 ```bash
 login as: perform
@@ -24,7 +24,7 @@ Click the Start installation button and select Linux.
 ![Deploy](/assets/103-Linux.jpg)
 
 
-Choose the installer type from the drop-down list. Use the Linux shell script installer on any Linux system that's supported by Dynatrace, regardless of the packaging system your distribution depends on.
+Choose the installer type from the drop-down list (we'll use the default x86/64). Use the Linux shell script installer on any Linux system that's supported by Dynatrace, regardless of the packaging system your distribution depends on.
 
 **Copy** the command provided in the "Use this command on the target host" text field. **Paste** the command into your terminal window and execute it.
 
@@ -58,7 +58,7 @@ $
 
 **Paste** the command into your terminal window and execute it. You’ll need to make the script executable before you can run it.
 
-**Note that you’ll need root access.**  You can use su or sudo to run the installation script. To do this, type one of the following commands into the directory where you downloaded the installation script.
+**Note that you’ll need root access.**  You can use sudo to run the installation script. To do this, type one of the following commands into the directory where you downloaded the installation script.
 
 Example:
 
@@ -89,39 +89,44 @@ Execute the command
 
 ```
 $ cd ~
-$ ./starteasytravel.sh
+$ ./restart_easyTravel.sh
 ...
---> Deploying template "easytravel/easytravel-with-loadgen" for "easytravel-with-loadgen.yml" to project easytravel
-
-     easytravel-with-loadgen
-     ---------
-     The Dynatrace easyTravel sample application (with UEM loadgen).
-
---> Creating resources ...
-    deploymentconfig.apps.openshift.io "mongodb" created
-    deploymentconfig.apps.openshift.io "backend" created
-    deploymentconfig.apps.openshift.io "frontend" created
-    deploymentconfig.apps.openshift.io "www" created
-    deploymentconfig.apps.openshift.io "loadgen" created
-    service "mongodb" created
-    service "backend" created
-    service "frontend" created
-    service "www" created
-    route.route.openshift.io "www" created
---> Success
-    Access your application via route 'www-easytravel.<your public ip>.nip.io'
-    Run 'oc status' to view your app.
+ubuntu@ip-172-31-7-147:~$ ./restart_easyTravel.sh
+Stopping loadgen  ... done
+Stopping www      ... done
+Stopping frontend ... done
+Stopping backend  ... done
+Stopping mongodb  ... done
+Removing loadgen  ... done
+Removing www      ... done
+Removing frontend ... done
+Removing backend  ... done
+Removing mongodb  ... done
+ip-172-31-7-147
+APM
+Creating mongodb ... done
+Creating backend ... done
+Creating frontend ... done
+Creating www      ... done
+Creating loadgen  ... done
+ubuntu@ip-172-31-7-147:~$
 
 ```
 
 Easy Travel will take about 5 minutes to complete starting up. If you would like to check the status, you can enter this command
 
 ```bash
-$ oc status | grep nginx -A 1 | grep "\- 1 pod"
-    deployment #1 deployed 7 minutes ago - 1 pod (warning: 3 restarts)
+$ sudo docker ps
+CONTAINER ID        IMAGE                           COMMAND                  CREATED             STATUS              PORTS                                                NAMES
+0f9cb477bcf0        dynatrace/easytravel-loadgen    "/bin/sh -c /run-pro…"   19 minutes ago      Up 19 minutes                                                            loadgen
+a3d241d88ecf        dynatrace/easytravel-nginx      "/bin/sh -c /run-pro…"   19 minutes ago      Up 19 minutes       443/tcp, 0.0.0.0:80->80/tcp, 8080/tcp                www
+82300947a19a        dynatrace/easytravel-frontend   "/bin/sh -c /run-pro…"   19 minutes ago      Up 19 minutes       0.0.0.0:32771->8080/tcp                              frontend
+3dc6e8e3f468        dynatrace/easytravel-backend    "/bin/sh -c /run-pro…"   19 minutes ago      Up 19 minutes       0.0.0.0:32770->8080/tcp                              backend
+f88098f89e90        dynatrace/easytravel-mongodb    "/bin/sh -c ${SCRIPT…"   19 minutes ago      Up 19 minutes       0.0.0.0:32769->27017/tcp, 0.0.0.0:32768->28017/tcp   mongodb
+
 ```
 
-If you see the above message, it would mean that the frontend web server is ready. If you do not see anything, it means that Easy Travel is still starting and you might want to wait a few minutes more. 
+If you see the above 5 containers, it would mean that Easy Travel containers have started. If you do not the 5 conatiners, it means that Easy Travel is still starting and you might want to wait a few minutes more. 
 
 To access the Easy Travel portal, copy the URL shown to you:
 
