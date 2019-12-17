@@ -57,4 +57,4 @@ SELECT COUNT(*) FROM usersession WHERE useraction.name = "Loading of page /orang
 Are you able to describe what each sample query is trying to visualize?
 
 ---
-:arrow_up_small: [Back to overview](https://github.com/performgohot19/DEM)
+:arrow_up_small: [Back to overview](/README.md)

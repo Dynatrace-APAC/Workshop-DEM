@@ -147,4 +147,4 @@ While waiting for Easy Travel to start, you can explore Dynatrace and using the 
 
 :arrow_forward: [Next Hands On: Configure Real User Monitoring in Dynatrace](/Hands%20On%202%20-%20Configure%20Real%20User%20Monitoring)
 
-:arrow_up_small: [Back to overview](https://github.com/performgohot19/DEM)
+:arrow_up_small: [Back to overview](/README.md)

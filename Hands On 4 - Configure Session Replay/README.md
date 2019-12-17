@@ -38,4 +38,4 @@ Reference: https://www.dynatrace.com/support/help/how-to-use-dynatrace/real-user
 
 :arrow_forward: [Next Hands On: User Session Query Language (USQL)](/Hands%20On%205%20-%20Introduction%20to%20USQL)
 
-:arrow_up_small: [Back to overview](https://github.com/performgohot19/DEM)
+:arrow_up_small: [Back to overview](/README.md)

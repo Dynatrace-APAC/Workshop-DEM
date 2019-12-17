@@ -48,4 +48,4 @@ Reference: https://www.dynatrace.com/support/help/how-to-use-dynatrace/synthetic
 
 :arrow_forward: [Next Hands On: Configure Session Replay in Dynatrace](/Hands%20On%204%20-%20Configure%20Session%20Replay)
 
-:arrow_up_small: [Back to overview](https://github.com/performgohot19/DEM)
+:arrow_up_small: [Back to overview](/README.md)
