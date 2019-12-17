@@ -1,5 +1,5 @@
 # Digital Experience Management with Dynatrace
-This repository contains the exercises for the Digital Experience Management Hands-on Training (HOT) session.
+This repository contains the hands on for the Digital Experience Management Workshop.
 
 Environment that we will use
 
@@ -7,9 +7,9 @@ Environment that we will use
 
 * Dynatrace SaaS/Managed instance
 
-# Exercises
+# Hands On
 
-**Exercise 1** [Deploy OneAgent & Start Easy Travel application](/ex1)
+**Exercise 1** [Deploy OneAgent & Start Easy Travel application](/Hands On 1 - Deploy Dynatrace OneAgent)
 
 **Exercise 2** [Configure Real User Monitoring in Dynatrace](/ex2)
 
