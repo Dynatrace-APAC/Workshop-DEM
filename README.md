@@ -1,12 +1,12 @@
 # Digital Experience Management with Dynatrace
-This repository contains the hands on for the Digital Experience Management Workshop.
+This repository contains the hands on for the Dynatrace Digital Experience Management (DEM) Workshop.
 
 Prerequisites for this session:
 
-* Dynatrace SaaS/Managed Account. Get your free SaaS trial [here](https://www.dynatrace.com/trial/) (https://www.dynatrace.com/trial/).
-* AWS account, with the ability to create an EC2 instance from a public AMI. Signup to a free trail [here](https://aws.amazon.com/free/) (https://aws.amazon.com/free/).
+* Dynatrace SaaS/Managed Account. Get your free SaaS trial [here](https://www.dynatrace.com/trial/).
+* AWS account, with the ability to create an EC2 instance from a public AMI. Signup to a free trail [here](https://aws.amazon.com/free/).
 * Chrome Browser
-* SSH client such as [mobaxterm](https://mobaxterm.mobatek.net/) (https://mobaxterm.mobatek.net/).
+* SSH client such as [mobaxterm](https://mobaxterm.mobatek.net/).
 
 Created environment uses the following application:
 
