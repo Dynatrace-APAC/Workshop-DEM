@@ -14,9 +14,9 @@ Click **Select** to start in deployment wizard.
 
 Use the defaults to create the instance except:
 
-	Instance Type: **t2.medium** (although t2.micro should work for this session)
+* Instance Type: **t2.medium** (although t2.micro should work for this session)
 	
-	Security group: Ensure the security group includes **SSH** and **HTTP** ports
+* Security group: Ensure the security group includes **SSH** and **HTTP** ports
 
 ![Deploy](/assets/pre-securitygroup.png)
 
