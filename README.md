@@ -1,6 +1,8 @@
 # Digital Experience Management with Dynatrace
 This repository contains the hands on for the Dynatrace Digital Experience Management (DEM) Workshop.
 
+# Prerequisites
+
 Prerequisites for this session:
 
 * Dynatrace SaaS/Managed Account. Get your free SaaS trial [here](https://www.dynatrace.com/trial/).
@@ -8,9 +10,9 @@ Prerequisites for this session:
 * Chrome Browser
 * SSH client such as [mobaxterm](https://mobaxterm.mobatek.net/).
 
-Created environment uses the following application:
+## Prerequisites Actions
+Please follow the [Prerequisites Actions](//Prerequisite%20Actions) to create the application that will be used throughout this workshop.
 
-* [easyTravel Docker](https://github.com/Dynatrace/easyTravel-Docker)
 
 # Hands On
 
@@ -23,3 +25,8 @@ Created environment uses the following application:
 **Hands On 4:** [Configure Session Replay in Dynatrace](/Hands%20On%204%20-%20Configure%20Session%20Replay)
 
 **Hands On 5 (Optional):** [User Session Query Language (USQL)](/Hands%20On%205%20-%20Introduction%20to%20USQL)
+
+
+The workshop uses the following example application:
+
+* [easyTravel Docker](https://github.com/Dynatrace/easyTravel-Docker)
