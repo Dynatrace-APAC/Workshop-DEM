@@ -5,26 +5,26 @@ More information can be found here: [How to use Dynatrace > Syntheic Monitoring]
 
 ### 1. Create a simple browser monitors for Easy Travel
 
-1. Select Synthetic from the navigation menu.
-2. Click the Create a synthetic monitor button at top right.
-3. Click Create a browser monitor.
+1. Select **Synthetic** from the navigation menu.
+2. Click the **Create a synthetic monitor** button at top right.
+3. Click **Create a browser monitor**.
 
 ![SR](/assets/301-SYN-01.png)
 
-4. On the Configure a synthetic monitor page, type in the URL of your Easy Travel application and either use the default Name or provide your own.
+4. On the Configure a synthetic monitor page, type in the URL (Public DNS) of your Easy Travel application and name the monitor **easyTravel Homepage**.
 5. For Device profile, leave it as the default (i.e. Desktop)
 
 ![SR](/assets/301-SYN-02.png)
 
-6. Click on "Select Frequency & Locations". For Frequency, select 5 mins
+6. Click on **Select Frequency & Locations**. For Frequency, select **5** mins
 7. Use the following 2 locations
    * Sydney
    * Canbarra
 
 ![SR](/assets/301-SYN-03.png)
 
-8. Click on "View monitor summary" to advance in the wizard
-9. Click on "Create browser monitor" to complete the creation of the synthetic monitor
+8. Click on **View monitor summary** to advance in the wizard
+9. Click on **Create browser monitor** to complete the creation of the synthetic monitor
 
 Reference: https://www.dynatrace.com/support/help/how-to-use-dynatrace/synthetic-monitoring/browser-monitors/create-a-single-url-browser-monitor/
 
@@ -33,10 +33,11 @@ Reference: https://www.dynatrace.com/support/help/how-to-use-dynatrace/synthetic
  * You will need to install the **Dynatrace recorder (chrome plugin)**
  * Only **Chrome** is supported due to the requirement to run a plugin
 
-1. Select Synthetic from the navigation menu.
-2. Click Create a synthetic monitor > Create a browser monitor.
-3. First-time users are asked to install the Chrome plugin. Click Install Dynatrace recorder at the bottom of the page.
+1. Select **Synthetic** from the navigation menu.
+2. Click **Create a synthetic monitor** > **Create a browser monitor**.
+3. First-time users are asked to install the Chrome plugin. Click **Install Dynatrace Synthetic Recorder** at the bottom of the page.
 4. On the extension page, click Add to Chrome > Add Extension.
+5. C
 
 Reference: https://www.dynatrace.com/support/help/how-to-use-dynatrace/synthetic-monitoring/browser-monitors/record-a-browser-clickpath/
 

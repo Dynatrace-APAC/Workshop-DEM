@@ -3,44 +3,45 @@ In this exercise, we will cover the basics of configuring Real User Monitoring. 
 
 More information can be found here: [How to use Dynatrace > Real User Monitoring > Setup and configuration > Web applications](https://www.dynatrace.com/support/help/how-to-use-dynatrace/real-user-monitoring/setup-and-configuration/web-applications/)
 
-There are 3 tasks in this exercies:
-- [ ] Task1 Defining an application
-- [ ] Task2 Selecting the appropriate JavaScript frameworks
-- [ ] Task3 Tagging a user session
+There are 3 tasks in this exercise:
+- [ ] Task 1: Defining an application
+- [ ] Task 2: Selecting the appropriate JavaScript frameworks
+- [ ] Task 3: Tagging a user session
 
 ### Task 1. Defining an application
 
 Reference: https://www.dynatrace.com/support/help/how-to-use-dynatrace/real-user-monitoring/setup-and-configuration/web-applications/initial-configuration/define-your-applications-via-the-my-web-application-placeholder
 
-1. Select Applications from the navigation menu.
-2. Click the My web application placeholder application.
+1. Select **Applications** from the navigation menu.
+2. Click the **My web application** placeholder application.
 3. Scroll down to find the Top 3 included domains panel. This panel includes the domains that contain the largest number of actions that have been automatically detected by OneAgent in your environment.
-4. Click View full details.
+4. Click **View full details**.
 
    ![Deploy](/assets/201-Define.png)
 
-5. Select a domain from the list appearing under Top domains and expand it by clicking the arrow under Transfer domain.
-6. Click Create new application. Your application will be created and listed on the Applications page. From now on, all user actions that are monitored on this domain will be mapped onto the newly created application. Alternatively, you may want to add the domain to an existing application, in case some applications have already been created. To do this, expand the list box, select an application and click Transfer.
+5. Select a domain from the list appearing under Top domains and expand it by clicking the **arrow under Transfer domain**.
+6. Click **Create new application**. 
+Your application will be created and listed on the Applications page. From now on, all user actions that are monitored on this domain will be mapped onto the newly created application. Alternatively, you may want to add the domain to an existing application, in case some applications have already been created. To do this, expand the list box, select an application and click Transfer.
 
    ![Deploy](/assets/201-Create.png)
 
 As you may want to use a more intuitive name for your application, you can easily rename it. To rename an application:
-1. Select Applications from the navigation menu.
+1. Select **Applications** from the navigation menu.
 2. Click your newly created application to access the application's overview page.
-3. Click the Browse button (...) and select Edit.
-4. Type in the name you prefer in the text box appearing on top of the page. Note that application names must be unique.
+3. Click the Browse button (...) and select **Edit**.
+4. Type in the name you prefer in the text box appearing on top of the page. For this workshop please use **easyTravel** as the application name. Note that application names must be unique.
 
 ### Task 2. Selecting the appropriate JavaScript frameworks
 
-1. Select Applications from the navigation menu.
+1. Select **Applications** from the navigation menu.
 2. Select the newly created application (the entry in your Dynatrace console will be different from the screen shot)
 
    ![Deploy](/assets/202-ModifyJSFramework.png)
 
-3. Click the Browse button (...) and select Edit.
-4. Select "Async request..."
-5. Enable the following framewoks as shown in the screen below
-6. Click on Save
+3. Click the Browse button (...) and select **Edit**.
+4. Select **Async requests and single page apps**
+5. Enable the following frameworks as shown in the screen below
+6. Click on **Save**
 
    ![Deploy](/assets/202-ConfigFramework.png)
 
@@ -56,11 +57,12 @@ This approach to user tagging works by capturing available data in your applicat
 
 Once you’ve identified where usernames are located in your page source, you can create user tags based on the usernames. To do this, return to Dynatrace and execute the following steps:
 
-1. Select "User tag"
-2. Click on "Add tag (identifier) rule"
-3. Select the drop down "CSS Selector"
+1. Select **User tag**
+2. Click on **Add tag (identifier) rule**
+3. Select the drop down **CSS Selector**
 4. Paste the CSS Selector which you copied earlier from your browser's Developer Tool. Since the CSS Selector also picks up some additional text, we can apply a clean up rule.
-5. Click on Save
+5. Click **Add tag (identifier) rule**
+5. Click on **Save**
 
    ![Deploy](/assets/204-TaggingUserSession.png)
 

@@ -5,16 +5,16 @@ Read about Session Replay here: [How to use Dynatrace > Real User Monitoring > B
 
 ### 1. Enable Session Replay
 
-1. Select Applications from the navigation menu.
+1. Select **Applications** from the navigation menu.
 2. Select the application you want to configure.
-3. Click the Browse \[...\] menu button and select Edit.
-4. From the Application settings menu, select Session Replay.
-5. Turn the Enable Session Replay button on.
+3. Click the Browse \[...\] menu button and select **Edit**.
+4. From the Application settings menu, select **Session Replay**.
+5. Turn the **Enable Session Replay** button on.
 
    ![SR](/assets/401-Configure.png)
 
-6. Click on Save and then access Easy Travel on the browser and fire off some transactions.
-7. After a couple minutes, find your session under User Sessions
+6. Click on **Save** and then access the Easy Travel application using your browser and navigate around the application.
+7. After a couple minutes, find your session under **User Sessions**
    * Hint: You can filter for sessions that have Replay enabled
 
    ![SR](/assets/403-ViewSR1.png)
