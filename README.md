@@ -1,16 +1,16 @@
 # Digital Experience Management with Dynatrace
 This repository contains the hands on for the Digital Experience Management Workshop.
 
-Environment that we will use
-
-* [Dockerized Easy Travel](https://github.com/Dynatrace/easyTravel-Docker)
-
-* Dynatrace SaaS/Managed instance
-
 Prerequisites for this session:
 
-* Dynatrace SaaS/Managed Account. Get your free SaaS trial [here](https://www.dynatrace.com/trial/).
-* AWS account, with the ability to create an EC2 instance from a public AMI. Signup to a free trail [here] (https://aws.amazon.com/free/).
+* Dynatrace SaaS/Managed Account. Get your free SaaS trial [here](https://www.dynatrace.com/trial/) https://www.dynatrace.com/trial/.
+* AWS account, with the ability to create an EC2 instance from a public AMI. Signup to a free trail [here](https://aws.amazon.com/free/) https://aws.amazon.com/free/.
+* Chrome Browser
+* SSH client such as [mobaxterm] (https://mobaxterm.mobatek.net/)
+
+Created environment uses:
+
+* [Dockerized Easy Travel](https://github.com/Dynatrace/easyTravel-Docker)
 
 # Hands On
 
