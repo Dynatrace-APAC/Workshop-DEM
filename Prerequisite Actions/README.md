@@ -18,6 +18,7 @@ Use the defaults to create the instance except:
 	
 * Security group: Ensure the security group includes **SSH** and **HTTP** ports
 
+
 ![Deploy](/assets/pre-securitygroup.png)
 
 Create a new key pair or use an existing one. **Please note: you will need the PEM key to access the instance vis SSH.**
