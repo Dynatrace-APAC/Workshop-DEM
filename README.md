@@ -10,8 +10,8 @@ Prerequisites for this session:
 * Chrome Browser
 * SSH client such as [mobaxterm](https://mobaxterm.mobatek.net/).
 
-## Prerequisites Actions
-Please follow the [Prerequisites Actions](//Prerequisite%20Actions) to create the application that will be used throughout this workshop.
+## Prerequisite Actions
+Please follow the [Prerequisite Actions](//Prerequisite%20Actions) to create the application that will be used throughout this workshop.
 
 
 # Hands On
