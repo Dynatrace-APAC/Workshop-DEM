@@ -11,7 +11,7 @@ Prerequisites for this session:
 * SSH client such as [mobaxterm](https://mobaxterm.mobatek.net/).
 
 ## Prerequisite Actions
-Please follow the [Prerequisite Actions](//Prerequisite%20Actions) to create the application that will be used throughout this workshop.
+Please follow the [Prerequisite Actions](/Prerequisite%20Actions) to create the application that will be used throughout this workshop.
 
 
 # Hands On
