@@ -7,6 +7,11 @@ Environment that we will use
 
 * Dynatrace SaaS/Managed instance
 
+Prerequisites for this session:
+
+* Dynatrace SaaS/Managed Account. Get your free SaaS trial [here](https://www.dynatrace.com/trial/).
+* AWS account, with the ability to create an EC2 instance from a public AMI. Signup to a free trail [here] (https://aws.amazon.com/free/).
+
 # Hands On
 
 **Hands On 1:** [Deploy OneAgent & Start Easy Travel application](/Hands%20On%201%20-%20Deploy%20Dynatrace%20OneAgent)
