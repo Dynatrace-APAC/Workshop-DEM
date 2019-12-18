@@ -21,7 +21,7 @@ Use the defaults to create the instance except:
 
 ![Deploy](/assets/pre-securitygroup.png)
 
-Create a new key pair or use an existing one. **Please note: you will need the PEM key to access the instance vis SSH.**
+Create a new key pair or use an existing one. **Please note: you will need the PEM key to access the instance via SSH.**
 
 Launch the instance...
 
