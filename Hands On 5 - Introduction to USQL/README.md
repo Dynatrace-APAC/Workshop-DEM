@@ -11,17 +11,7 @@ A typical use case for using USQL is to build dashboards to visualize business m
 
 Reference: https://www.dynatrace.com/support/help/how-to-use-dynatrace/real-user-monitoring/how-to-use-real-user-monitoring/cross-application-user-session-analytics/custom-queries-segmentation-and-aggregation-of-session-data/
 
-### 1. Start Easy Travel load gen
-
-```
-$ cd ~
-$ ./load.sh
-Starting Easytravel loadgen...
-deploymentconfig.apps.openshift.io/loadgen scaled
-
-```
-
-### 2. Explore USQL
+### 1. Explore USQL
 
 1. Select User Sessions from the navigation menu
 2. Use the Filter at the top bar, select your application's name 
