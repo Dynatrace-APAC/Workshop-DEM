@@ -5,7 +5,6 @@ In this exercise, we will deploy the OneAgent to a Linux instance and let the On
 
 Use PuTTy (Windows) or Terminal (Mac), ssh into the instance (IP address using the your PEM Key)
 
-
 Open your browser and access the Dynatrace URL.
 
 Select Deploy Dynatrace from the navigation menu.
@@ -60,7 +59,6 @@ Example:
 
 ```bash
 $ sudo /bin/sh Dynatrace-OneAgent-Linux-1.171.252.sh
-[sudo] password for perform:
 10:21:42 Checking root privileges...
 10:21:42 OK
 10:21:42 Installation started ...
