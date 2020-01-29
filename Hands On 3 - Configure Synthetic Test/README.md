@@ -37,7 +37,6 @@ Reference: https://www.dynatrace.com/support/help/how-to-use-dynatrace/synthetic
 2. Click **Create a synthetic monitor** > **Create a browser monitor**.
 3. First-time users are asked to install the Chrome plugin. Click **Install Dynatrace Synthetic Recorder** at the bottom of the page.
 4. On the extension page, click Add to Chrome > Add Extension.
-5. C
 
 Reference: https://www.dynatrace.com/support/help/how-to-use-dynatrace/synthetic-monitoring/browser-monitors/record-a-browser-clickpath/
 
