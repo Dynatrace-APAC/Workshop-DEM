@@ -1,6 +1,6 @@
 # Prerequisites Actions for the Dynatrace DEM Workshop 
 
-## Dynatrace Accounts and AWS EC2 Access
+## Dynatrace and AWS Account Access 
 
 You'll need to have the following access:
 
